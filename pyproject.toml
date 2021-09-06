@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "starlette-logging-request-body"
+version = "0.1.0"
+description = "FastAPI / Starlette middleware for logging the full request and response"
+authors = ["Matt Gosden <mdgosden@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+starlette = "^0.14"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pylint = "^2.10.2"
+black = "^21.8b0"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
